@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.icondiv a{
+   text-decoration: none;
+   color: black;
+
+}
+    
+
+
+    
+  .left-box{
+    background-color:gray;
+    float: left;
+    width:20%;
+ 
+    height: 1050px 
+ }
+ .right-box{
+     background-color: whitesmoke;
+    float: left;
+    width: 80%;
+ 
+    height: 1050px
+ }
+
+ 
+ img{
+
+    border-radius: 40%;
+    padding :50px;
+    height:150px;
+     width:120px;
+}
+  .left-box.icondiv{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ 
+}
+.skills{
+   position: relative;
+ margin-left: 20px;
+
+}
+.language{
+   position: relative;
+ margin-left: 20px;
+
+}
+.name{
+  
+   font-size: 4em;
+ padding-left:3em ;
+ padding-top: 0.5em;
+ font-weight: 1em;
+ font-family: 'Gelasio', serif;
+ 
+
+ 
+}
+#about{
+   padding: 1em;
+}
+.education{
+   padding-left: 4rem;
+}
+.Hobbies{
+   padding-left: 4rem;
+}
+.Projects{
+   padding-left: 4rem;
+}
+.Certificate,.Experience{
+   padding-left: 4rem;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   background-color: darkgray;
+   color: black;
+}
